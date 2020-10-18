@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[${loader_version},)"
+license="MIT"
+
+[[mods]] 
+
+modId="animancy" 
+version="${version}" 
+displayName="Animancy" 
+credits="Thanks to..." 
+authors="Hoficraft" 
+description=''' 
+A mod with a soul-based magic system.
+'''
+
+[[dependencies.animancy]]
+    modId="forge"
+    mandatory=true
+    versionRange="[${forge_version},)"
+    side="BOTH"
+
+[[dependencies.animancy]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="${mc_version}"
+    side="BOTH"
